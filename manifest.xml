@@ -506,4 +506,13 @@
         </interface>
         <fqname>@1.0::ITeeRegistry/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>vendor.lineage.touch</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IGloveMode</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </manifest>
