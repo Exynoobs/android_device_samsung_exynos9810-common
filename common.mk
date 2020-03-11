@@ -127,6 +127,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.samsung
 
+# Livedisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service.samsung-exynos
+
 # Memtrack
 PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl:64 \
