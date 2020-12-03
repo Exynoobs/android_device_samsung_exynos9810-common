@@ -73,6 +73,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-service_64 \
     Snap
 
+# ConfigStore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl:64 \
