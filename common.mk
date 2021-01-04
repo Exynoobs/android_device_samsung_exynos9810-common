@@ -19,10 +19,6 @@ COMMON_PATH := device/samsung/exynos9810-common
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/exynos9810-common/exynos9810-common-vendor.mk)
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(COMMON_PATH)
-
 DEVICE_PACKAGE_OVERLAYS += \
     $(COMMON_PATH)/overlay
 
@@ -230,8 +226,7 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0.vendor \
-    android.hardware.power@1.3-service.samsung-libperfmgr \
-    libperfmgr.vendor:64
+    android.hardware.power-service.samsung-libperfmgr
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json \
@@ -271,8 +266,9 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
+    hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/samsung/hidl/power-libperfmgr
+    hardware/samsung/aidl/power-libperfmgr
 
 # Tethering
 PRODUCT_PACKAGES += \
