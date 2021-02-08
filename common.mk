@@ -232,7 +232,8 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libshim_sensorndkbridge
+    libshim_sensorndkbridge \
+    libdemangle.vendor
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
