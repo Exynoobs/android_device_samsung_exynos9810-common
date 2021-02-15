@@ -126,7 +126,7 @@ DEVICE_MANIFEST_FILE += $(PLATFORM_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(PLATFORM_PATH)/compatibility_matrix.xml
 
 ### SEPOLICY
-#include device/lineage/sepolicy/exynos/sepolicy.mk
+include device/lineage/sepolicy/exynos/sepolicy.mk
 
 BOARD_SEPOLICY_TEE_FLAVOR := mobicore
 include device/samsung_slsi/sepolicy/sepolicy.mk
