@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 The LineageOS Project
+ * Copyright (C) 2021 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,10 +17,21 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
+#pragma push_macro("PROPERTY_VALUE_MAX")
+
 #if !defined(OS_GENERIC)
+#include <cutils/properties.h>
+#include <string.h>
 
 static inline const char* getBTDefaultName()
 {
+    char device[PROPERTY_VALUE_MAX];
+    property_get("ro.product.device", device, "");
+
+    if (!strcmp("crownlte", device)) {
+        return "Galaxy note 9";
+    }
+    
     return "Galaxy S9";
 }
 
@@ -35,5 +46,7 @@ static inline const char* getBTDefaultName()
 
 /* 'strings libbluetooth.so' */
 #define BTA_AV_SINK_INCLUDED TRUE
+
+#pragma pop_macro("PROPERTY_VALUE_MAX")
 
 #endif /* _BDROID_BUILDCFG_H */
