@@ -253,6 +253,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.samsung
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.1-service.typec
+
 # Soundtrigger
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.0-impl:32
