@@ -9,8 +9,6 @@ af.fast_track_multiplier=1
 dalvik.vm.lockprof.threshold=500
 
 ### GRAPHICS
-# gralloc/exynosdisplay
-ro.vendor.ddk.set.afbc=1
 # Set the display mode to automatic by default
 persist.sys.sf.color_saturation=1.0
 persist.sys.sf.native_mode=2
