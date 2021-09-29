@@ -52,6 +52,10 @@ vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
 debug.slsi_platform=1
 debug.hwc.winupdate=1
 
+## SoC
+ro.soc.manufacturer=Samsung
+ro.soc.model "Exynos 9810"
+
 ### SURFACEFLINGER
 debug.sf.latch_unsignaled=1
 
