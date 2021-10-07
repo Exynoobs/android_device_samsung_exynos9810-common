@@ -41,6 +41,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.a2dp@1.0 \
     android.hardware.bluetooth.audio@2.0 \
     android.hardware.bluetooth.audio@2.0-impl:32 \
+    android.hidl.allocator@1.0.vendor:32 \
     audio.a2dp.default \
     audio.bluetooth.default \
     libaudioroute \
@@ -88,6 +89,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:32 \
     android.hardware.drm@1.0-service \
+    android.hardware.drm@1.3.vendor:32 \
     android.hardware.drm@1.3-service.clearkey
 
 # fastbootd
@@ -222,6 +224,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
+    android.hardware.power@1.0.vendor \
     android.hardware.power@1.3-service.samsung-libperfmgr \
     libperfmgr.vendor:64
 
