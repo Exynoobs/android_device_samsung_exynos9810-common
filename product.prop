@@ -1,2 +1,5 @@
 # Set the sample rate for the BT device
 persist.bluetooth.samsung_samplerate.supported=true
+
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
