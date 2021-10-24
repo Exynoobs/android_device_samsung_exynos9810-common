@@ -40,3 +40,7 @@ PRODUCT_COPY_FILES += \
 ### THERMAL
 PRODUCT_COPY_FILES += \
     $(PLATFORM_PATH)/config/thermal/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
+
+### WIFI
+PRODUCT_COPY_FILES += \
+    $(PLATFORM_PATH)/config/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf

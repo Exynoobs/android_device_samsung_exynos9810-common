@@ -145,22 +145,16 @@ TARGET_PRODUCT_PROP += $(PLATFORM_PATH)/product.prop
 TARGET_VENDOR_PROP += $(PLATFORM_PATH)/vendor.prop
 
 ### WIFI
-BOARD_WLAN_DEVICE                := bcmdhd
-BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
+BOARD_WLAN_DEVICE := bcmdhd
+BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
-BOARD_HOSTAPD_DRIVER             := NL80211
-BOARD_HOSTAPD_PRIVATE_LIB        := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
-
+BOARD_HOSTAPD_DRIVER := NL80211
+BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WIFI_RESET_IFACE_AFTER_MAC_CHANGE := true
-
-# hardware/broadcom/wlan/bcmdhd/config/Android.mk
-# external/wpa_supplicant_8/Android.mk
-WPA_SUPPLICANT_VERSION           := VER_0_8_X
-
-# frameworks/opt/net/wifi/libwifi_hal/Android.mk
-# hardware/samsung/wifiloader/Android.mk
-WIFI_DRIVER_FW_PATH_PARAM        := "/sys/module/dhd/parameters/firmware_path"
+WPA_SUPPLICANT_VERSION := VER_0_8_X
+WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/dhd/parameters/firmware_path"
 
 ### RIL
 # Use stock RIL stack
