@@ -7,6 +7,9 @@ ro.vendor.cscsupported=1
 ro.cmc.device_type=pd
 ro.cmc.version=2.0
 
+# RIL
+persist.sys.fflag.override.settings_provider_model=false
+
 ### CHARGER
 ro.charger.enable_suspend=true
 
