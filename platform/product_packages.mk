@@ -38,10 +38,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
-### DOZE
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 ### DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:32 \
