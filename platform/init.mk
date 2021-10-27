@@ -8,4 +8,5 @@ PRODUCT_PACKAGES += \
     init.samsungexynos9810.rc \
     init.samsungexynos9810.usb.rc \
     fstab.samsungexynos9810 \
-    ueventd.samsungexynos9810.rc
+    ueventd.samsungexynos9810.rc \
+    init.baseband.rc
