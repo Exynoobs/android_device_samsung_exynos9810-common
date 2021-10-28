@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
 
 ### NFC
 PRODUCT_COPY_FILES += \
+    $(PLATFORM_PATH)/config/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     $(PLATFORM_PATH)/config/nfc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf
 
 ### PUBLIC LIBRARIES
