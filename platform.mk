@@ -31,3 +31,6 @@ PRODUCT_ENFORCE_RRO_TARGETS += *
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 include $(PLATFORM_PATH)/platform/*.mk
+
+### PROPRIETARY VENDOR FILES
+$(call inherit-product, vendor/samsung/exynos9810-common/exynos9810-common-vendor.mk)
