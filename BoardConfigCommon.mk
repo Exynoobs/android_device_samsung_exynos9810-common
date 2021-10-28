@@ -20,6 +20,9 @@ BUILD_BROKEN_DUP_RULES := true
 ## Include path
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
+## Inherit proprietary vendor configuration
+include vendor/samsung/exynos9810-common/BoardConfigVendor.mk
+
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
@@ -109,6 +112,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
+
+# Security
+VENDOR_SECURITY_PATCH := 2021-08-01
 
 # Sepolicy
 BOARD_SEPOLICY_TEE_FLAVOR := mobicore
