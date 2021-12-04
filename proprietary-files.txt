@@ -267,7 +267,6 @@ vendor/etc/plmn_delta_usagsm.bin|9a25ec9e9da16ed2f8a9db07f037fe08283b24e5
 vendor/etc/plmn_se13.bin|6445f3c7ee35c59999de2fdd47c718048a3f550f
 -vendor/bin/cbd|155f94ba40e72680d6125a93ad8d8c0445eff86a
 -vendor/bin/hw/rild|4b677eddb2211de673ea023d8fa3ca1fb8898ab0
--vendor/bin/secril_config_svc|18bd3dcb3e7299b5755ee23287d78422c0c18b83
 -vendor/lib/libaudio-ril.so|47e9bbb359a498409146d02dd6228b43410475f8
 -vendor/lib/libsecril-client.so;MODULE=libsecril-client.exynos9810|4d5ee418f73e7f644220462f9c0eaefdcb54153a
 -vendor/lib/libsemnativecarrierfeature.so|a25d959ddf046b26d678011b5e1d4dd1dc09f809
