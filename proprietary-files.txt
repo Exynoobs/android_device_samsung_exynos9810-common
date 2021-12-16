@@ -358,7 +358,6 @@ vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-se
 vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
 
 # Wi-Fi
-vendor/bin/hw/macloader
 vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_brcm.rc
 vendor/etc/wifi/bcmdhd_mfg.bin_b0
