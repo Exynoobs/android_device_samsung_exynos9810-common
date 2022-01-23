@@ -55,6 +55,7 @@ TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/hardware/include
 ### KERNEL
 TARGET_KERNEL_SOURCE = kernel/samsung/exynos9810/
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := r353983c1
 
 BOARD_CUSTOM_BOOTIMG         := true
 BOARD_CUSTOM_BOOTIMG_MK      := hardware/samsung/mkbootimg.mk
