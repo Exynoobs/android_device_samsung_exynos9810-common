@@ -66,8 +66,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.5-service \
-    Snap
+    android.hardware.camera.provider@2.5-service
 
 # ConfigStore
 PRODUCT_PACKAGES += \
