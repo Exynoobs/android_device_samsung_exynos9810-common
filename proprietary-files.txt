@@ -12,47 +12,47 @@ vendor/etc/playback_record_audio_policy_configuration.xml
 vendor/etc/r_submix_audio_policy_configuration.xml
 vendor/etc/tms_audio_policy_configuration.xml
 vendor/etc/usb_audio_policy_configuration.xml
-vendor/lib/hw/audio.primary.exynos9810.so
-vendor/lib/hw/sound_trigger.primary.exynos9810.so
-vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
-vendor/lib/libSamsungPostProcessConvertor.so
-vendor/lib/lib_SoundAlive_3DPosition_ver202.so
-vendor/lib/lib_SoundAlive_AlbumArt_ver105.so
-vendor/lib/lib_SoundAlive_SRC384_ver320.so
-vendor/lib/lib_soundaliveresampler.so
-vendor/lib/libaboxpcmdump.so
-vendor/lib/libalsautils_sec.so
-vendor/lib/libaudio_soundtrigger.so
-vendor/lib/libaudiodebugfs.so
-vendor/lib/libaudioproxy.so
-vendor/lib/libcodecdspdump.so
-vendor/lib/libdatamod.so
-vendor/lib/libfloatingfeature.so
-vendor/lib/libsecaudiocoreutils.so
-vendor/lib/libsecaudioinfo.so
-vendor/lib/soundfx/libaudioeffectoffload.so
-vendor/lib/soundfx/libaudiosaplus_sec.so
-vendor/lib/soundfx/libgearvr.so
-vendor/lib/soundfx/libmysound.so
-vendor/lib/soundfx/libmyspace.so
-vendor/lib/soundfx/libplaybackrecorder.so
-vendor/lib/vendor.samsung.hardware.audio@1.0.so
-vendor/lib/vndk/libaudioroute.so
-vendor/lib/vndk/libtinyalsa.so
-vendor/lib64/hw/sound_trigger.primary.exynos9810.so
-vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
-vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
-vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
-vendor/lib64/libfloatingfeature.so
-vendor/lib64/libsecaudiocoreutils.so
-vendor/lib64/libsecaudioinfo.so
-vendor/lib64/soundfx/libaudioeffectoffload.so
-vendor/lib64/soundfx/libaudiosaplus_sec.so
-vendor/lib64/soundfx/libgearvr.so
-vendor/lib64/soundfx/libmysound.so
-vendor/lib64/soundfx/libmyspace.so
-vendor/lib64/soundfx/libplaybackrecorder.so
-vendor/lib64/vendor.samsung.hardware.audio@1.0.so
+-vendor/lib/hw/audio.primary.exynos9810.so
+-vendor/lib/hw/sound_trigger.primary.exynos9810.so
+-vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
+-vendor/lib/libSamsungPostProcessConvertor.so
+-vendor/lib/lib_SoundAlive_3DPosition_ver202.so
+-vendor/lib/lib_SoundAlive_AlbumArt_ver105.so
+-vendor/lib/lib_SoundAlive_SRC384_ver320.so
+-vendor/lib/lib_soundaliveresampler.so
+-vendor/lib/libaboxpcmdump.so
+-vendor/lib/libalsautils_sec.so
+-vendor/lib/libaudio_soundtrigger.so
+-vendor/lib/libaudiodebugfs.so
+-vendor/lib/libaudioproxy.so
+-vendor/lib/libcodecdspdump.so
+-vendor/lib/libdatamod.so
+-vendor/lib/libfloatingfeature.so
+-vendor/lib/libsecaudiocoreutils.so
+-vendor/lib/libsecaudioinfo.so
+-vendor/lib/soundfx/libaudioeffectoffload.so
+-vendor/lib/soundfx/libaudiosaplus_sec.so
+-vendor/lib/soundfx/libgearvr.so
+-vendor/lib/soundfx/libmysound.so
+-vendor/lib/soundfx/libmyspace.so
+-vendor/lib/soundfx/libplaybackrecorder.so
+-vendor/lib/vendor.samsung.hardware.audio@1.0.so
+-vendor/lib/vndk/libaudioroute.so;MODULE=libaudioroute.exynos9810
+-vendor/lib/vndk/libtinyalsa.so;MODULE=libtinyalsa.exynos9810
+-vendor/lib64/hw/sound_trigger.primary.exynos9810.so
+-vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
+-vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
+-vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
+-vendor/lib64/libfloatingfeature.so
+-vendor/lib64/libsecaudiocoreutils.so
+-vendor/lib64/libsecaudioinfo.so
+-vendor/lib64/soundfx/libaudioeffectoffload.so
+-vendor/lib64/soundfx/libaudiosaplus_sec.so
+-vendor/lib64/soundfx/libgearvr.so
+-vendor/lib64/soundfx/libmysound.so
+-vendor/lib64/soundfx/libmyspace.so
+-vendor/lib64/soundfx/libplaybackrecorder.so
+-vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 
 # Audio Firmware
 vendor/firmware/HFD.cfg.bin
@@ -64,59 +64,65 @@ vendor/firmware/dsm.bin
 vendor/firmware/vts.bin
 
 # Biometrics
-vendor/lib/libbauthserver.so
-vendor/lib/libbauthtzcommon.so
-vendor/lib/libegis_fp_normal_sensor_test.so
-vendor/lib/libgf_in_system_lib.so
-vendor/lib/libqfp_sensortest.so
-vendor/lib/libsynaFpSensorTestNwd.so
-vendor/lib64/libbauthserver.so
-vendor/lib64/libbauthtzcommon.so
-vendor/lib64/libegis_fp_normal_sensor_test.so
-vendor/lib64/libgf_in_system_lib.so
-vendor/lib64/libqfp_sensortest.so
-vendor/lib64/libsynaFpSensorTestNwd.so
+-vendor/lib/libbauthserver.so
+-vendor/lib/libbauthtzcommon.so
+-vendor/lib/libegis_fp_normal_sensor_test.so
+-vendor/lib/libgf_in_system_lib.so
+-vendor/lib/libqfp_sensortest.so
+-vendor/lib/libsynaFpSensorTestNwd.so
+-vendor/lib64/libbauthserver.so
+-vendor/lib64/libbauthtzcommon.so
+-vendor/lib64/libegis_fp_normal_sensor_test.so
+-vendor/lib64/libgf_in_system_lib.so
+-vendor/lib64/libqfp_sensortest.so
+-vendor/lib64/libsynaFpSensorTestNwd.so
 
 # Bluetooth (AptX) - from crosshatch - RQ1A.201205.003
-product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+-product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 
 # Camera
-vendor/lib/camera.device@1.0-impl.so
-vendor/lib/camera.device@3.3-impl.so
-vendor/lib/camera.device@3.5-impl.so
-vendor/lib64/camera.device@1.0-impl.so
-vendor/lib64/camera.device@3.3-impl.so
-vendor/lib64/camera.device@3.5-impl.so
-vendor/lib/libSEF.quram.so
-vendor/lib/lib_SamsungRec_06006.so
-vendor/lib/libacryl.so
-vendor/lib/libacryl_plugin_slsi_hdr10.so
-vendor/lib/libcnn.so
-vendor/lib/libcsc.so
-vendor/lib/libgiantmscl.so
-vendor/lib/libhfd.so
-vendor/lib/libhwjpeg.so
-vendor/lib/libsensorlistener.so
-vendor/lib/libstagefrighthw.so
-vendor/lib/libuniapi.so
-vendor/lib/libuniplugin.so
-vendor/lib/libvkmanager_vendor.so
-vendor/lib64/libSEF.quram.so
-vendor/lib64/libacryl_plugin_slsi_hdr10.so
-vendor/lib64/libcsc.so
-vendor/lib64/libgiantmscl.so
-vendor/lib64/libhwjpeg.so
-vendor/lib64/libsensorlistener.so
-vendor/lib64/libstagefrighthw.so
-vendor/lib64/libuniapi.so
-vendor/lib64/libuniplugin.so
-vendor/lib64/libvkmanager_vendor.so
-vendor/lib/libIDDQD_core.so
-vendor/lib/libIDDQD_interface.so
-vendor/lib/libOpenCv.camera.samsung.so
-vendor/lib64/libIDDQD_core.so
-vendor/lib64/libIDDQD_interface.so
-vendor/lib64/libOpenCv.camera.samsung.so
+-vendor/lib/camera.device@1.0-impl.so;MODULE=camera.device@1.0-impl.exynos9810
+-vendor/lib/camera.device@3.3-impl.so;MODULE=camera.device@3.3-impl.exynos9810
+-vendor/lib/camera.device@3.5-impl.so;MODULE=camera.device@3.5-impl.exynos9810
+-vendor/lib64/camera.device@1.0-impl.so;MODULE=camera.device@1.0-impl.exynos9810
+-vendor/lib64/camera.device@3.3-impl.so;MODULE=camera.device@3.3-impl.exynos9810
+-vendor/lib64/camera.device@3.5-impl.so;MODULE=camera.device@3.5-impl.exynos9810
+
+# Camera dependencies
+-vendor/lib/libSEF.quram.so
+-vendor/lib/lib_SamsungRec_06006.so
+-vendor/lib/libacryl.so
+-vendor/lib/libacryl_plugin_slsi_hdr10.so
+-vendor/lib/libcnn.so
+-vendor/lib/libcsc.so
+-vendor/lib/libgiantmscl.so
+-vendor/lib/libhfd.so
+-vendor/lib/libhwjpeg.so
+-vendor/lib/libsensorlistener.so
+-vendor/lib/libstagefrighthw.so
+-vendor/lib/libuniapi.so
+-vendor/lib/libuniplugin.so
+-vendor/lib/libvkmanager_vendor.so
+-vendor/lib64/libSEF.quram.so
+-vendor/lib64/libacryl_plugin_slsi_hdr10.so
+-vendor/lib64/libcsc.so
+-vendor/lib64/libgiantmscl.so
+-vendor/lib64/libhwjpeg.so
+-vendor/lib64/libsensorlistener.so
+-vendor/lib64/libstagefrighthw.so
+-vendor/lib64/libuniapi.so
+-vendor/lib64/libuniplugin.so
+-vendor/lib64/libvkmanager_vendor.so
+
+# Camera IDDQD plugin
+-vendor/lib/libIDDQD_core.so
+-vendor/lib/libIDDQD_interface.so
+-vendor/lib/libOpenCv.camera.samsung.so
+-vendor/lib64/libIDDQD_core.so
+-vendor/lib64/libIDDQD_interface.so
+-vendor/lib64/libOpenCv.camera.samsung.so
+
+# Camera firmware
 vendor/firmware/score/develop1/score_dummy
 vendor/firmware/score/camera1/score_kc2_pmw.bin
 vendor/firmware/score/camera1/score_kc2_dmb.bin
@@ -146,44 +152,44 @@ vendor/etc/media_codecs_performance.xml
 vendor/etc/media_profiles_V1_0.xml
 
 # Gatekeeper
-vendor/lib/hw/gatekeeper.exynos9810.so
-vendor/lib64/hw/gatekeeper.exynos9810.so
+-vendor/lib/hw/gatekeeper.exynos9810.so
+-vendor/lib64/hw/gatekeeper.exynos9810.so
 
 # Gralloc
-vendor/lib/hw/gralloc.exynos9810.so
-vendor/lib64/hw/gralloc.exynos9810.so
+-vendor/lib/hw/gralloc.exynos9810.so
+-vendor/lib64/hw/gralloc.exynos9810.so
 
 # GPS/GNSS
-vendor/bin/hw/gpsd
-vendor/bin/hw/lhd
-vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
+-vendor/bin/hw/gpsd
+-vendor/bin/hw/lhd
+-vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
 vendor/etc/gnss/gps.cer
 vendor/etc/gnss/gps.xml
 vendor/etc/init/init.gps.rc
 vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 vendor/etc/sensor/lhd.conf
-vendor/lib64/hw/gps.default.so
-vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
-vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
-vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
+-vendor/lib64/hw/gps.default.so
+-vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
+-vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+-vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
 
 # Graphics/Mali
-vendor/bin/bcc_mali
-vendor/lib/egl/libGLES_mali.so
+-vendor/bin/bcc_mali
+-vendor/lib/egl/libGLES_mali.so
 vendor/lib/libmalicore.bc
-vendor/lib64/egl/libGLES_mali.so
-vendor/lib64/libLLVM_android_mali.so
-vendor/lib64/libbcc_mali.so
+-vendor/lib64/egl/libGLES_mali.so
+-vendor/lib64/libLLVM_android_mali.so
+-vendor/lib64/libbcc_mali.so
 vendor/lib64/libmalicore.bc
 
 # Ion
-vendor/lib/libion_exynos.so
-vendor/lib64/libion_exynos.so
+-vendor/lib/libion_exynos.so
+-vendor/lib64/libion_exynos.so
 
 # Keymaster
-vendor/lib64/hw/keystore.mdfpp.so
-vendor/lib64/libkeymaster2_mdfpp.so
-vendor/lib64/libskeymaster3device.so
+-vendor/lib64/hw/keystore.mdfpp.so
+-vendor/lib64/libkeymaster2_mdfpp.so
+-vendor/lib64/libskeymaster3device.so
 
 # Mobicore
 vendor/app/mcRegistry/07010000000000000000000000000000.tlbin
@@ -211,56 +217,56 @@ vendor/app/mcRegistry/ffffffffd0000000000000000000001a.tlbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000045.drbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000062.tlbin
 vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin
-vendor/bin/mcDriverDaemon
+-vendor/bin/mcDriverDaemon
 vendor/etc/init/mobicore.rc
-vendor/lib/libMcClient.so
-vendor/lib64/libMcClient.so
+-vendor/lib/libMcClient.so
+-vendor/lib64/libMcClient.so
 
 # NeuralNetworks
 vendor/etc/armnn_kernel.bin
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-armnn.rc
 
 # OMX
-vendor/lib/libExynosOMX_Core.so
-vendor/lib/libExynosOMX_Resourcemanager.so
-vendor/lib/libstagefright_omx_vendor.so
-vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so
-vendor/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so
-vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so
-vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so
-vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so
-vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so
-vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so
-vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so
-vendor/lib/omx/libOMX.Exynos.VP9.Encoder.so
-vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so
-vendor/lib/vndk/libstagefright_foundation.so
-vendor/lib/vndk/libstagefright_omx_utils.so
-vendor/lib64/libExynosOMX_Core.so
-vendor/lib64/libExynosOMX_Resourcemanager.so
-vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so
-vendor/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so
-vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so
-vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so
-vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so
-vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so
-vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so
-vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so
-vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so
-vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so
+-vendor/lib/libExynosOMX_Core.so
+-vendor/lib/libExynosOMX_Resourcemanager.so
+-vendor/lib/libstagefright_omx_vendor.so
+-vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so
+-vendor/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so
+-vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so
+-vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so
+-vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so
+-vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so
+-vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so
+-vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so
+-vendor/lib/omx/libOMX.Exynos.VP9.Encoder.so
+-vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so
+-vendor/lib/vndk/libstagefright_foundation.so
+-vendor/lib/vndk/libstagefright_omx_utils.so
+-vendor/lib64/libExynosOMX_Core.so
+-vendor/lib64/libExynosOMX_Resourcemanager.so
+-vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so
+-vendor/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so
+-vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so
+-vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so
+-vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so
+-vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so
+-vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so
+-vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so
+-vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so
+-vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so
 
 # Power
-vendor/lib/hw/power.exynos9810.so
-vendor/lib64/hw/power.exynos9810.so
+-vendor/lib/hw/power.exynos9810.so
+-vendor/lib64/hw/power.exynos9810.so
 
 # Renderscript
-vendor/lib/libRSDriverArm.so
-vendor/lib64/libRSDriverArm.so
+-vendor/lib/libRSDriverArm.so
+-vendor/lib64/libRSDriverArm.so
 
 # RIL - N770FXXS8EUJ1
-vendor/bin/hw/rild|c77d17bde3312077a77a3a8238a62e649a996f44
-vendor/bin/cbd|c5e4f2779b9c64bc728e23fcd60e104c4692c862
-vendor/bin/secril_config_svc|a450adc0af40e821255b949dc5de57df25792051
+-vendor/bin/hw/rild|c77d17bde3312077a77a3a8238a62e649a996f44
+-vendor/bin/cbd|c5e4f2779b9c64bc728e23fcd60e104c4692c862
+-vendor/bin/secril_config_svc|a450adc0af40e821255b949dc5de57df25792051
 vendor/etc/init/init.vendor.rilchip.rc|83d57882dfaefaaa21c5dd636bafd655dfaf0b10
 vendor/etc/init/init.vendor.rilcommon.rc|eb3115e335457fdc95c854190ee6804e165718f2
 vendor/etc/plmn_delta.bin|6a826cb6a8a1d460403ab2ebccf4f0d7be546ce6
@@ -268,40 +274,40 @@ vendor/etc/plmn_delta_attaio.bin|751a1c7105f1c03fc196689c2a71e2c69aa14e1f
 vendor/etc/plmn_delta_hktw.bin|4602b2e5c84d6cd4d6836a94784987a76e7830ce
 vendor/etc/plmn_delta_usagsm.bin|9a25ec9e9da16ed2f8a9db07f037fe08283b24e5
 vendor/etc/plmn_se13.bin|60d19518cf8e655eda91046c3bc0152e240a9841
-vendor/lib/libaudio-ril.so|2fee16ec35bcaccac0092b27b5ea434617877c3f
-vendor/lib/libengmode_client.so|1b301bba9ec88c017687aa0db745949a23c0de5f
-vendor/lib/libril.so|d60c374b2fae7302d5e2ea469d01ff100bb7dd0a
+-vendor/lib/libaudio-ril.so|2fee16ec35bcaccac0092b27b5ea434617877c3f
+-vendor/lib/libengmode_client.so|1b301bba9ec88c017687aa0db745949a23c0de5f
+-vendor/lib/libril.so|d60c374b2fae7302d5e2ea469d01ff100bb7dd0a
 vendor/lib/librilutils.so|6af19cf1ab9ec150213d61552870277a6f49096b
-vendor/lib/libsecril-client.so|af77c32b35ab1a2b7ee5f38e529e7eb8dee0a195
-vendor/lib/libsec-ril-dsds.so|55be215be769368de3a63042469416c3016e12d8
-vendor/lib/libsec-ril.so|8c20962fdbc71812e3241664dc347812364fd6c4
-vendor/lib/libsemnativecarrierfeature.so|ac27187c27eba2b96eaa4812b8e9b60193ca18d6
-vendor/lib/vendor.samsung.hardware.radio@2.0.so|1c976df4082e7829578a9cb48c040706e1753a6d
-vendor/lib/vendor.samsung.hardware.radio@2.1.so|6ce633e09b82f54aabd789ca23a5f1833a232f68
-vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so|c130cf05828ee1e415cf5823f2a67e023508f710
-vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so|8f1ef76608e97b5864e30ea2f2aff2f685eb4d8e
-vendor/lib64/libengmode_client.so|60161fb31f7dabdec12b89360f1a1a3f672684e0
-vendor/lib64/libril.so|cf62752d95d5bd16fe2613ee0b4ab1cb5328b37c
+-vendor/lib/libsecril-client.so;MODULE=libsecril-client.exynos9810|af77c32b35ab1a2b7ee5f38e529e7eb8dee0a195
+-vendor/lib/libsec-ril-dsds.so|55be215be769368de3a63042469416c3016e12d8
+-vendor/lib/libsec-ril.so|8c20962fdbc71812e3241664dc347812364fd6c4
+-vendor/lib/libsemnativecarrierfeature.so|ac27187c27eba2b96eaa4812b8e9b60193ca18d6
+-vendor/lib/vendor.samsung.hardware.radio@2.0.so|1c976df4082e7829578a9cb48c040706e1753a6d
+-vendor/lib/vendor.samsung.hardware.radio@2.1.so|6ce633e09b82f54aabd789ca23a5f1833a232f68
+-vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so|c130cf05828ee1e415cf5823f2a67e023508f710
+-vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so|8f1ef76608e97b5864e30ea2f2aff2f685eb4d8e
+-vendor/lib64/libengmode_client.so|60161fb31f7dabdec12b89360f1a1a3f672684e0
+-vendor/lib64/libril.so|cf62752d95d5bd16fe2613ee0b4ab1cb5328b37c
 vendor/lib64/librilutils.so|ad142dbbca112ae7676a58b0f55bf1c1a04e87f7
-vendor/lib64/libsecril-client.so|86b71fb3fb1daa5bc5293d38779c528126e0cfa3
-vendor/lib64/libsec-ril-dsds.so|cf9a7f71db553209cb543b26c11f9f32be90d3eb
-vendor/lib64/libsec-ril.so|ea921af89789b5f362f843306e3d8e8eb139491b
-vendor/lib64/libsemnativecarrierfeature.so|b9663215a8cae356b4ddf86790359beda9c30f47
-vendor/lib64/vendor.samsung.hardware.radio@2.0.so|e9985c207ffec829a1746af29d45d9da1994805f
-vendor/lib64/vendor.samsung.hardware.radio@2.1.so|12953d8fe923094410dfa0ea983515b0b16e8eba
-vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so|ac01bab3a779374005bb6b94e8b354107671d5dc
-vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so|44d2173ab0187ec3460dd54135e2b406bc93b098
+-vendor/lib64/libsecril-client.so;MODULE=libsecril-client.exynos9810|86b71fb3fb1daa5bc5293d38779c528126e0cfa3
+-vendor/lib64/libsec-ril-dsds.so|cf9a7f71db553209cb543b26c11f9f32be90d3eb
+-vendor/lib64/libsec-ril.so|ea921af89789b5f362f843306e3d8e8eb139491b
+-vendor/lib64/libsemnativecarrierfeature.so|b9663215a8cae356b4ddf86790359beda9c30f47
+-vendor/lib64/vendor.samsung.hardware.radio@2.0.so|e9985c207ffec829a1746af29d45d9da1994805f
+-vendor/lib64/vendor.samsung.hardware.radio@2.1.so|12953d8fe923094410dfa0ea983515b0b16e8eba
+-vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so|ac01bab3a779374005bb6b94e8b354107671d5dc
+-vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so|44d2173ab0187ec3460dd54135e2b406bc93b098
 
 # Samsung SLSI ConfigStore
-vendor/bin/hw/vendor.samsung_slsi.hardware.configstore@1.0-service
+-vendor/bin/hw/vendor.samsung_slsi.hardware.configstore@1.0-service
 vendor/etc/init/vendor.samsung_slsi.hardware.configstore@1.0-service.rc
-vendor/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so
+-vendor/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so
 
 # Samsung SLSI IVA
-vendor/lib/libiva_android_hal.so
-vendor/lib/libvxu.so
-vendor/lib64/libiva_android_hal.so
-vendor/lib64/libvxu.so
+-vendor/lib/libiva_android_hal.so
+-vendor/lib/libvxu.so
+-vendor/lib64/libiva_android_hal.so
+-vendor/lib64/libvxu.so
 vendor/openvx/cost/cost_c_iva.dat
 vendor/openvx/cost/cost_c_neon.dat
 vendor/openvx/cost/cost_c_score.dat
@@ -311,51 +317,51 @@ vendor/openvx/cost/cost_score.dat
 vendor/openvx/xml/_hifi_still_schedule.xml
 
 # Samsung SLSI HWC
-vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service
+-vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service
 vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc
-vendor/lib/hw/hwcomposer.exynos9810.so
-vendor/lib/libExynosHWCService.so
-vendor/lib/libGrallocWrapper.so
-vendor/lib/libacryl.so
-vendor/lib/libexynosdisplay.so
-vendor/lib/libexynosgscaler.so
-vendor/lib/libexynosscaler.so
-vendor/lib/libexynosutils.so
-vendor/lib/libexynosv4l2.so
-vendor/lib64/hw/hwcomposer.exynos9810.so
-vendor/lib64/libExynosHWCService.so
-vendor/lib64/libGrallocWrapper.so
-vendor/lib64/libacryl.so
-vendor/lib64/libexynosdisplay.so
-vendor/lib64/libexynosgscaler.so
-vendor/lib64/libexynosscaler.so
-vendor/lib64/libexynosutils.so
-vendor/lib64/libexynosv4l2.so
-vendor/lib64/libmpp.so
-vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
+-vendor/lib/hw/hwcomposer.exynos9810.so
+-vendor/lib/libExynosHWCService.so
+-vendor/lib/libGrallocWrapper.so
+-vendor/lib/libacryl.so
+-vendor/lib/libexynosdisplay.so
+-vendor/lib/libexynosgscaler.so
+-vendor/lib/libexynosscaler.so
+-vendor/lib/libexynosutils.so
+-vendor/lib/libexynosv4l2.so
+-vendor/lib64/hw/hwcomposer.exynos9810.so
+-vendor/lib64/libExynosHWCService.so
+-vendor/lib64/libGrallocWrapper.so
+-vendor/lib64/libacryl.so
+-vendor/lib64/libexynosdisplay.so
+-vendor/lib64/libexynosgscaler.so
+-vendor/lib64/libexynosscaler.so
+-vendor/lib64/libexynosutils.so
+-vendor/lib64/libexynosv4l2.so
+-vendor/lib64/libmpp.so
+-vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
 
 # Samsung SLSI Memtrack
-vendor/lib64/hw/memtrack.exynos9810.so
-vendor/lib/hw/memtrack.exynos9810.so
+-vendor/lib64/hw/memtrack.exynos9810.so
+-vendor/lib/hw/memtrack.exynos9810.so
 
 # Secnative
-vendor/lib/libsecnativefeature.so
-vendor/lib64/libsecnativefeature.so
+-vendor/lib/libsecnativefeature.so
+-vendor/lib64/libsecnativefeature.so
 
 # Sensors
 vendor/etc/sensors/hals.conf
-vendor/lib/sensors.bio.so
-vendor/lib/sensors.grip.so
-vendor/lib64/libflicker.so
-vendor/lib64/sensors.bio.so
-vendor/lib64/sensors.grip.so
+-vendor/lib/sensors.bio.so
+-vendor/lib/sensors.grip.so
+-vendor/lib64/libflicker.so
+-vendor/lib64/sensors.bio.so
+-vendor/lib64/sensors.grip.so
 
 # Widevine
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine
-vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
+-vendor/bin/hw/android.hardware.drm@1.2-service.widevine
+-vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
 vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc
-vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
+-vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
 
 # Wi-Fi
 vendor/etc/init/wifi.rc
