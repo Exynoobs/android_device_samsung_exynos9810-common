@@ -270,7 +270,7 @@ vendor/etc/plmn_delta_usagsm.bin|9a25ec9e9da16ed2f8a9db07f037fe08283b24e5
 vendor/etc/plmn_se13.bin|60d19518cf8e655eda91046c3bc0152e240a9841
 -vendor/lib/libaudio-ril.so|2fee16ec35bcaccac0092b27b5ea434617877c3f
 -vendor/lib/libengmode_client.so|1b301bba9ec88c017687aa0db745949a23c0de5f
--vendor/lib/libril.so|d60c374b2fae7302d5e2ea469d01ff100bb7dd0a
+-vendor/lib/libril.so:vendor/lib/libril-samsung.so|d60c374b2fae7302d5e2ea469d01ff100bb7dd0a
 vendor/lib/librilutils.so|6af19cf1ab9ec150213d61552870277a6f49096b
 -vendor/lib/libsecril-client.so;MODULE=libsecril-client.exynos9810|af77c32b35ab1a2b7ee5f38e529e7eb8dee0a195
 -vendor/lib/libsec-ril-dsds.so|55be215be769368de3a63042469416c3016e12d8
@@ -281,7 +281,7 @@ vendor/lib/librilutils.so|6af19cf1ab9ec150213d61552870277a6f49096b
 -vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so|c130cf05828ee1e415cf5823f2a67e023508f710
 -vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so|8f1ef76608e97b5864e30ea2f2aff2f685eb4d8e
 -vendor/lib64/libengmode_client.so|60161fb31f7dabdec12b89360f1a1a3f672684e0
--vendor/lib64/libril.so|cf62752d95d5bd16fe2613ee0b4ab1cb5328b37c
+-vendor/lib64/libril.so:vendor/lib64/libril-samsung.so|cf62752d95d5bd16fe2613ee0b4ab1cb5328b37c
 vendor/lib64/librilutils.so|ad142dbbca112ae7676a58b0f55bf1c1a04e87f7
 -vendor/lib64/libsecril-client.so;MODULE=libsecril-client.exynos9810|86b71fb3fb1daa5bc5293d38779c528126e0cfa3
 -vendor/lib64/libsec-ril-dsds.so|cf9a7f71db553209cb543b26c11f9f32be90d3eb
