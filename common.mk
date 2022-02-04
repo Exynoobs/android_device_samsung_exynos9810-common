@@ -157,13 +157,6 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl:64 \
     android.hardware.memtrack@1.0-service 
 
-# Neuralnetworks
-PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks@1.0 \
-    android.hardware.neuralnetworks@1.1 \
-    android.hardware.neuralnetworks@1.2 \
-    libtextclassifier_hash.vendor
-
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.samsung \
