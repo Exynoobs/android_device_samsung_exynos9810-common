@@ -242,6 +242,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
+    android.frameworks.schedulerservice@1.0.vendor:64 \
     android.hardware.sensors@1.0-impl.samsung:64 \
     android.hardware.sensors@1.0-service \
     libsensorndkbridge
