@@ -290,11 +290,6 @@ vendor/etc/plmn_se13.bin|60d19518cf8e655eda91046c3bc0152e240a9841
 -vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so|ac01bab3a779374005bb6b94e8b354107671d5dc
 -vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so|44d2173ab0187ec3460dd54135e2b406bc93b098
 
-# Samsung SLSI ConfigStore
--vendor/bin/hw/vendor.samsung_slsi.hardware.configstore@1.0-service
-vendor/etc/init/vendor.samsung_slsi.hardware.configstore@1.0-service.rc
--vendor/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so
-
 # Samsung SLSI IVA
 -vendor/lib/libiva_android_hal.so
 -vendor/lib/libvxu.so
