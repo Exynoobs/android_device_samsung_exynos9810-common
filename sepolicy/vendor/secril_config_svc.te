@@ -2,4 +2,4 @@
 
 r_dir_file(secril_config_svc, imei_efs_file);
 
-set_prop(secril_config_svc, exported3_radio_prop);
+dontaudit secril_config_svc radio_control_prop:property_service set;

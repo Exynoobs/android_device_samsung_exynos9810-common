@@ -1,6 +1,5 @@
 ### DATA
 /data/log(/.*)?                u:object_r:log_data_file:s0
-/data/vendor/mcRegistry(/.*)?  u:object_r:tee_vendor_data_file:s0
 /data/vendor/mediadrm(/.*)?    u:object_r:mediadrm_vendor_data_file:s0
 /data/vendor/nfc(/.*)?         u:object_r:nfc_vendor_data_file:s0
 
@@ -17,11 +16,6 @@
 
 # Secmem
 /dev/s5p-smem                  u:object_r:secmem_device:s0
-
-### SYSFS
-
-# Block
-/sys/devices/platform/11120000.ufs/host0/target0:0:0/0:0:0:[0-4]/block/sd[a-e]/queue/scheduler    u:object_r:sysfs_io_sched_tuneable:s0
 
 # Camera
 /sys/devices/virtual/camera(/.*)                         u:object_r:sysfs_camera:s0
