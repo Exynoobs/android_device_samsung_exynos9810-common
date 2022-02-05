@@ -117,6 +117,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl:64 \
     android.hardware.health@2.1-service
 
+# GNSS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.0.vendor
+
 # HIDL
 PRODUCT_PACKAGES += \
     libhidltransport \
