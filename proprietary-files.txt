@@ -257,38 +257,38 @@ vendor/etc/init/mobicore.rc
 -vendor/lib/libRSDriverArm.so
 -vendor/lib64/libRSDriverArm.so
 
-# RIL - N770FXXS8EUJ1
--vendor/bin/hw/rild|c77d17bde3312077a77a3a8238a62e649a996f44
--vendor/bin/cbd|c5e4f2779b9c64bc728e23fcd60e104c4692c862
--vendor/bin/secril_config_svc|a450adc0af40e821255b949dc5de57df25792051
-vendor/etc/init/init.vendor.rilchip.rc|83d57882dfaefaaa21c5dd636bafd655dfaf0b10
+# RIL - N770FXXU8FUL7
+vendor/etc/init/init.vendor.rilchip.rc|0f5f13a11c084db5dc0eb47bb693235a2273f91e
 vendor/etc/init/init.vendor.rilcommon.rc|eb3115e335457fdc95c854190ee6804e165718f2
 vendor/etc/plmn_delta.bin|6a826cb6a8a1d460403ab2ebccf4f0d7be546ce6
 vendor/etc/plmn_delta_attaio.bin|751a1c7105f1c03fc196689c2a71e2c69aa14e1f
-vendor/etc/plmn_delta_hktw.bin|4602b2e5c84d6cd4d6836a94784987a76e7830ce
+vendor/etc/plmn_delta_hktw.bin|97a5a4747e8c32d463d8f26254257309b8a03a63
 vendor/etc/plmn_delta_usagsm.bin|9a25ec9e9da16ed2f8a9db07f037fe08283b24e5
-vendor/etc/plmn_se13.bin|60d19518cf8e655eda91046c3bc0152e240a9841
--vendor/lib/libaudio-ril.so|2fee16ec35bcaccac0092b27b5ea434617877c3f
--vendor/lib/libengmode_client.so|1b301bba9ec88c017687aa0db745949a23c0de5f
--vendor/lib/libril.so:vendor/lib/libril-samsung.so|d60c374b2fae7302d5e2ea469d01ff100bb7dd0a
--vendor/lib/libsecril-client.so;MODULE=libsecril-client.exynos9810|af77c32b35ab1a2b7ee5f38e529e7eb8dee0a195
--vendor/lib/libsec-ril-dsds.so|55be215be769368de3a63042469416c3016e12d8
--vendor/lib/libsec-ril.so|8c20962fdbc71812e3241664dc347812364fd6c4
--vendor/lib/libsemnativecarrierfeature.so|ac27187c27eba2b96eaa4812b8e9b60193ca18d6
--vendor/lib/vendor.samsung.hardware.radio@2.0.so|1c976df4082e7829578a9cb48c040706e1753a6d
--vendor/lib/vendor.samsung.hardware.radio@2.1.so|6ce633e09b82f54aabd789ca23a5f1833a232f68
--vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so|c130cf05828ee1e415cf5823f2a67e023508f710
--vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so|8f1ef76608e97b5864e30ea2f2aff2f685eb4d8e
--vendor/lib64/libengmode_client.so|60161fb31f7dabdec12b89360f1a1a3f672684e0
--vendor/lib64/libril.so:vendor/lib64/libril-samsung.so|cf62752d95d5bd16fe2613ee0b4ab1cb5328b37c
--vendor/lib64/libsecril-client.so;MODULE=libsecril-client.exynos9810|86b71fb3fb1daa5bc5293d38779c528126e0cfa3
--vendor/lib64/libsec-ril-dsds.so|cf9a7f71db553209cb543b26c11f9f32be90d3eb
--vendor/lib64/libsec-ril.so|ea921af89789b5f362f843306e3d8e8eb139491b
--vendor/lib64/libsemnativecarrierfeature.so|b9663215a8cae356b4ddf86790359beda9c30f47
--vendor/lib64/vendor.samsung.hardware.radio@2.0.so|e9985c207ffec829a1746af29d45d9da1994805f
--vendor/lib64/vendor.samsung.hardware.radio@2.1.so|12953d8fe923094410dfa0ea983515b0b16e8eba
--vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so|ac01bab3a779374005bb6b94e8b354107671d5dc
--vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so|44d2173ab0187ec3460dd54135e2b406bc93b098
+vendor/etc/plmn_se13.bin|6445f3c7ee35c59999de2fdd47c718048a3f550f
+-vendor/bin/cbd|155f94ba40e72680d6125a93ad8d8c0445eff86a
+-vendor/bin/hw/rild|4b677eddb2211de673ea023d8fa3ca1fb8898ab0
+-vendor/bin/secril_config_svc|18bd3dcb3e7299b5755ee23287d78422c0c18b83
+-vendor/lib/libaudio-ril.so|47e9bbb359a498409146d02dd6228b43410475f8
+-vendor/lib/libsecril-client.so;MODULE=libsecril-client.exynos9810|4d5ee418f73e7f644220462f9c0eaefdcb54153a
+-vendor/lib/libsemnativecarrierfeature.so|a25d959ddf046b26d678011b5e1d4dd1dc09f809
+-vendor/lib64/android.hardware.radio.config@1.0.so|5755bb93b5799946f0095f86efcb57bd4dff82ae
+-vendor/lib64/android.hardware.radio.config@1.1.so|0ceadca5fd1100c51ba515610de0303685d1910c
+-vendor/lib64/android.hardware.radio.config@1.2.so|bd30bc160e547a404a2ae1d7d38d353c73943f64
+-vendor/lib64/android.hardware.radio.deprecated@1.0.so|ed808f1ed77aeab8d9aaa3c1dd0562558a8576f6
+-vendor/lib64/android.hardware.radio@1.2.so|563572e97d0f2c3f389232de706ca5223ed4e812
+-vendor/lib64/android.hardware.radio@1.3.so|cd5bb3495b33ab26d287b5c77e677cc0b2fe6554
+-vendor/lib64/android.hardware.radio@1.4.so|feb2ef2f78f66c121fbf1f3f6b3c314171c18a33
+-vendor/lib64/libengmode_client.so|a7d678bad7a8c3b9729ff3d56cc35159ece548a3
+-vendor/lib64/libril_sem.so|dbcdbd0eab5bcaf3b57ff7efb9c61b88fcfeac2b
+-vendor/lib64/libsec-ril.so|e4cc4ea66dc42cb78ea55b9bbb7047856fa60d23
+-vendor/lib64/libsecril-client.so;MODULE=libsecril-client.exynos9810|59ca264c193c31588e2c0cbd1bbdfbe3b440ec89
+-vendor/lib64/libsemnativecarrierfeature.so|e2f24e4a0bd5258d6505c4719bf03fc5b2d363ba
+-vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so|4f803c313c74e161a871bac17581ee5f01d076ec
+-vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so|ee41c7cbd8b4078382f93bf7c61b141a0434c0db
+-vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so|38bc33189382277cd9ea0a44d2f9a8a13e91bf49
+-vendor/lib64/vendor.samsung.hardware.radio@2.0.so|4b2836fd3370945b0d8e7c3ab1c8ab45db819077
+-vendor/lib64/vendor.samsung.hardware.radio@2.1.so|7d1d5a2c86ed493ab5eb1d177d59b0dfa21d6421
+-vendor/lib64/vendor.samsung.hardware.radio@2.2.so|b93061d8dc9098bb68b5305fdf09b42375853a06
 
 # Samsung SLSI IVA
 -vendor/lib/libiva_android_hal.so
