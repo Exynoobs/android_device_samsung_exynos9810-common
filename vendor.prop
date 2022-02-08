@@ -35,7 +35,6 @@ debug.hwc.winupdate=1
 
 ### SURFACEFLINGER
 debug.sf.latch_unsignaled=1
-ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
 # Enable wide gamut and color management
 ro.surface_flinger.has_wide_color_display=true
