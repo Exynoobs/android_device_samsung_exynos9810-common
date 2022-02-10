@@ -156,6 +156,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service.samsung-exynos
 
+# OMX
+PRODUCT_PACKAGES += \
+    libepicoperator
+
 # Memtrack
 PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl:64 \
