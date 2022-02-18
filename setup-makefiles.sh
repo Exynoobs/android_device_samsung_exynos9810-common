@@ -25,7 +25,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
 
 # Warning headers and guards
-write_headers "starlte star2lte"
+write_headers "starlte star2lte crownlte"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
