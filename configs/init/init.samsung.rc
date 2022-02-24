@@ -71,6 +71,8 @@ on init
     # vibrator
     chown system system /sys/class/timed_output/vibrator/intensity
     chown system system /sys/class/timed_output/vibrator/motor_type
+    chown system system /sys/class/timed_output/vibrator/force_touch_intensity
+    write /sys/class/timed_output/vibrator/force_touch_intensity 10000
 
 on early-fs
     # tzic need to be grand permission before vold
