@@ -524,7 +524,7 @@ on post-fs-data
   
 on boot
 # SSWAP
-    write /proc/sys/vm/swappiness 160
+    write /proc/sys/vm/swappiness 100
 
     # Allow to access debugfs for system:system
     chmod 0755 /sys/kernel/debug
