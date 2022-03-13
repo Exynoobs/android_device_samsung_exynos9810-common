@@ -303,7 +303,7 @@ PRODUCT_PACKAGES += \
 
 # Soundtrigger
 PRODUCT_PACKAGES += \
-    android.hardware.soundtrigger@2.0-impl:32
+    android.hardware.soundtrigger@2.3-impl
 
 # Vibrator
 PRODUCT_PACKAGES += \
