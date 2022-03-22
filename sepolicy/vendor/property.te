@@ -1,2 +1,3 @@
 # property.te
 vendor_internal_prop(vendor_camera_prop)
+vendor_internal_prop(vendor_hwc_prop)
