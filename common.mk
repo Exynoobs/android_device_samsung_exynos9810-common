@@ -29,14 +29,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio.effect@2.0-impl:32 \
     android.hardware.audio.effect@5.0-impl:32 \
-    android.hardware.audio@2.0-impl:32 \
-    android.hardware.audio@2.0-service \
     android.hardware.audio@5.0-impl:32 \
-    android.hardware.bluetooth.a2dp@1.0 \
-    android.hardware.bluetooth.audio@2.0 \
+    android.hardware.audio.service \
     android.hardware.bluetooth.audio@2.0-impl:32 \
+    android.hardware.soundtrigger@2.0-impl:32 \
     android.hidl.allocator@1.0.vendor:32 \
     audio.a2dp.default \
     audio.bluetooth.default \
@@ -44,8 +41,7 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     libaudioroute \
     libtinyalsa \
-    libtinycompress \
-    tinymix
+    libtinycompress
 
 PRODUCT_PACKAGES += \
     SamsungDAP
