@@ -1,8 +1,2 @@
 # Set the sample rate for the BT device
 persist.bluetooth.samsung_samplerate.supported=true
-
-# IORap
-persist.device_config.runtime_native_boot.iorap_readahead_enable=true
-
-# IORap app launch prefetching using Perfetto traces and madvise
-iorapd.readahead.enable=true
