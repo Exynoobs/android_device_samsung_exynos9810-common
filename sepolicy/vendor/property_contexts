@@ -5,6 +5,7 @@ vendor.bluetooth_fw_ver        u:object_r:wifi_log_prop:s0
 persist.sys.camera.            u:object_r:vendor_camera_prop:s0
 
 # Hwc
+ro.vendor.winupdate            u:object_r:vendor_hwc_prop:s0
 vendor.hwc.display.            u:object_r:vendor_hwc_prop:s0
 
 # TEE

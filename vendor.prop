@@ -50,7 +50,7 @@ vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
 
 ### SAMSUNG_SLSI
 debug.slsi_platform=1
-debug.hwc.winupdate=1
+ro.vendor.winupdate=1
 
 ## SoC
 ro.soc.manufacturer=Samsung
