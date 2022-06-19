@@ -23,9 +23,6 @@ TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 ## Inherit proprietary vendor configuration
 include vendor/samsung/exynos9810-common/BoardConfigVendor.mk
 
-# APEX image
-DEXPREOPT_GENERATE_APEX_IMAGE := true
-
 ## Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
