@@ -225,23 +225,23 @@ vendor/etc/init/mobicore.rc
 -vendor/lib/libRSDriverArm.so
 -vendor/lib64/libRSDriverArm.so
 
-# RIL - N770FXXU8FUL7
+# RIL - N770FXXU8GVF2
 vendor/etc/init/init.vendor.rilchip.rc|0f5f13a11c084db5dc0eb47bb693235a2273f91e
 vendor/etc/init/init.vendor.rilcommon.rc|eb3115e335457fdc95c854190ee6804e165718f2
 vendor/etc/plmn_delta.bin|6a826cb6a8a1d460403ab2ebccf4f0d7be546ce6
 vendor/etc/plmn_delta_attaio.bin|751a1c7105f1c03fc196689c2a71e2c69aa14e1f
 vendor/etc/plmn_delta_hktw.bin|97a5a4747e8c32d463d8f26254257309b8a03a63
 vendor/etc/plmn_delta_usagsm.bin|9a25ec9e9da16ed2f8a9db07f037fe08283b24e5
-vendor/etc/plmn_se13.bin|6445f3c7ee35c59999de2fdd47c718048a3f550f
--vendor/bin/cbd|155f94ba40e72680d6125a93ad8d8c0445eff86a
--vendor/bin/hw/rild|4b677eddb2211de673ea023d8fa3ca1fb8898ab0
+vendor/etc/plmn_se13.bin|d615fe0add28bf8262f27a6ebcf8931275344eab
+-vendor/bin/cbd|b88d8b60ccecfb61edd7a9b3e14d8c34b1517975
+-vendor/bin/hw/rild|8b20067197ab33058f5b6cca70a2a747ea270065
 -vendor/lib/libaudio-ril.so|47e9bbb359a498409146d02dd6228b43410475f8
--vendor/lib/libsecril-client.so;MODULE=libsecril-client.exynos9810|4d5ee418f73e7f644220462f9c0eaefdcb54153a
+-vendor/lib/libsecril-client.so;MODULE=libsecril-client.exynos9810|57b6015cb5c76ae4d90e55c2ac52125d090d8936
 -vendor/lib/libsemnativecarrierfeature.so|a25d959ddf046b26d678011b5e1d4dd1dc09f809
--vendor/lib64/libengmode_client.so|a7d678bad7a8c3b9729ff3d56cc35159ece548a3
--vendor/lib64/libril_sem.so|dbcdbd0eab5bcaf3b57ff7efb9c61b88fcfeac2b
--vendor/lib64/libsec-ril.so|e4cc4ea66dc42cb78ea55b9bbb7047856fa60d23
--vendor/lib64/libsecril-client.so;MODULE=libsecril-client.exynos9810|59ca264c193c31588e2c0cbd1bbdfbe3b440ec89
+-vendor/lib64/libengmode_client.so|38331cbcf51e69b93ae24cfac6f25bb7b07dfd40
+-vendor/lib64/libril_sem.so|7fdb2b5ab24fe9c155483d907279dcc2f0f56688
+-vendor/lib64/libsec-ril.so|37f1594426280c4cd6690a041f7c7ff746737d31
+-vendor/lib64/libsecril-client.so;MODULE=libsecril-client.exynos9810|c4960ed6c2130c23c5c860c5eb4a44abd17066e3
 -vendor/lib64/libsemnativecarrierfeature.so|e2f24e4a0bd5258d6505c4719bf03fc5b2d363ba
 -vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so|4f803c313c74e161a871bac17581ee5f01d076ec
 -vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so|ee41c7cbd8b4078382f93bf7c61b141a0434c0db
