@@ -20,10 +20,17 @@
 # Secmem
 /dev/s5p-smem                  u:object_r:secmem_device:s0
 
+# Block
+/sys/devices/platform/(.*)/block/sda/queue/discard_max_bytes  u:object_r:sysfs_block_writable:s0
+/sys/devices/platform/(.*)/block/mmcblk0/mmcblk0p[0-9]+/start u:object_r:sysfs_block:s0
+
 # Camera
 /sys/devices/virtual/camera(/.*)                         u:object_r:sysfs_camera:s0
 /sys/devices/virtual/camera/flash/rear_flash             u:object_r:sysfs_camera_writable:s0
 /sys/devices/virtual/camera/rear/ssrm_camera_info        u:object_r:sysfs_camera_writable:s0
+
+# Extcon
+/sys/devices/platform/(.*)/extcon/extcon0/cable.0/name        u:object_r:sysfs_extcon:s0
 
 # Sensors
 /sys/devices/platform/13ac0000.spi(/.*)                  u:object_r:sysfs_iio:s0
