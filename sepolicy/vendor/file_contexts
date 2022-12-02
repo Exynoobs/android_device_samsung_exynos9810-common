@@ -5,7 +5,7 @@
 
 ### DEV
 # Extcon
-/sys/devices/platform/(.*)/extcon/extcon[0-9]/cable.[0-9]/name u:object_r:sysfs_extcon:s0
+/sys/devices/platform/(.*)/extcon/extcon[0-9]/cable.[0-9]/(.*) u:object_r:sysfs_extcon:s0
 
 # Camera
 /dev/m2m1shot_scaler0          u:object_r:m2m1shot_device:s0
