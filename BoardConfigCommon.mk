@@ -71,6 +71,8 @@ TARGET_KERNEL_SOURCE := kernel/samsung/exynos9810
 TARGET_KERNEL_CLANG_VERSION := r416183b
 TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)
 TARGET_KERNEL_LLVM_BINUTILS := false
+TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
