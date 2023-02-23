@@ -301,11 +301,11 @@ vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
 vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc
 -vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
 
-# Wi-Fi - N770FXXU8GVF2
+# Wi-Fi - N770FXXU8HWA2
 vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_brcm.rc|7e10bdb418353a269ae966ccc43b8444e2fd97e6
-vendor/firmware/bcm4361B2_murata.hcd|098ac8ad27bd48428f8a08d4d2baa8c9ef40b5b9
-vendor/firmware/bcm4361B2_semco.hcd|830e22f9f7940e8617d08b8a935d9a1aed5ccde4
+vendor/firmware/bcm4361B2_murata.hcd|6ce1e63ad8ae52513e99d6ad561ca7dc53da5584
+vendor/firmware/bcm4361B2_semco.hcd|15e35d87f1b693a45fccdf7e8510d4c31b44ec3f
 vendor/firmware/bcmdhd_clm.blob|f12265f1e0c28d24db314b4cd9847f0d1b2685bc
 vendor/firmware/bcmdhd_mfg.bin_b0|4e129f293e5c8f5dad4f9a05adf6a2d021505b54
 vendor/firmware/bcmdhd_mfg.bin_b2|0a239b9d18a90e5703d3df3e2c8a4bfb6bf688e7
